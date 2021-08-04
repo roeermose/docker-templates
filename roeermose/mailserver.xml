@@ -98,15 +98,15 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
+      <HostDir>/mnt/user/appdata/docker-mailserver/config</HostDir>
+      <ContainerDir>/tmp/docker-mailserver</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
       <HostDir>/etc/localtime</HostDir>
       <ContainerDir>/etc/localtime</ContainerDir>
       <Mode>ro</Mode>
     </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/docker-mailserver/</HostDir>
-      <ContainerDir>/tmp/docker-mailserver</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>    
   </Data>
   <WebUI></WebUI>
   <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/airsonic-advanced-icon.png</Icon>
