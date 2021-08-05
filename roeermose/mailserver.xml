@@ -18,7 +18,7 @@
   <Support>https://forums.unraid.net/topic/103190-support-binhex-airsonic-advanced/</Support>
   <Registry>https://hub.docker.com/r/mailserver/docker-mailserver/</Registry>
   <GitHub>https://github.com/docker-mailserver/docker-mailserver</GitHub>
-  <Repository>mailserver/docker-mailserver:lastest</Repository>
+  <Repository>mailserver/docker-mailserver</Repository>
   <Project>https://github.com/docker-mailserver/docker-mailserver</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
