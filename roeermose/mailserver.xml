@@ -83,17 +83,17 @@
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/docker-mailserver/data/mail-data</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/var/mail</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/docker-mailserver/data/mail-state</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/var/mail-state</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/docker-mailserver/data/mail-logs</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/var/log/mail</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -105,6 +105,11 @@
     <Volume>
       <HostDir>/etc/localtime</HostDir>
       <ContainerDir>/etc/localtime</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/tmp/ssl</ContainerDir>
       <Mode>ro</Mode>
     </Volume>
   </Data>
